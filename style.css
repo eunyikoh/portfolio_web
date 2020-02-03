@@ -212,3 +212,46 @@ body {
 */
 
 
+/*  */
+.section{
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 48px 16px;
+}
+
+.section-title{
+  flex-basis: 25%;
+  padding: 12px;
+  color: var(--section-title-font-color);
+  font-family: 'Playflair Display';
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.section-content{
+  flex-basis: 75%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.definition-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.definition-item{
+  margin-bottom: 4px;
+}
+
+.definition-item-title{
+  flex-basis: 80px;
+}
+
+.definition-item-description{
+  flex-basis: calc(100% - 80px);
+}
+
