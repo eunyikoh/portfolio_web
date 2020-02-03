@@ -255,3 +255,17 @@ body {
   flex-basis: calc(100% - 80px);
 }
 
+.category-list{
+  display: flex;
+}
+
+.category-item{
+  flex-grow: 1;
+}
+
+.skill-item-title{
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
+}
