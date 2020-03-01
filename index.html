@@ -6,22 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/03a165f5a3.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container">
+    <a class="a11y skip-link" href="#content">본문 바로가기</a>
     <header class="header">
       <div class="hero"></div>
       <div class="hero"></div>
       <div class="hero"></div>
       <div class="navbar">
-        <h1 class="logo"><a href="/">KEY PORTFOLIO</a></h1>
-        <nav class="nav"><ul class="menu-list">
-          <li class="menu-item"><a href="#about">About</a></li>
-          <li class="menu-item"><a href="#biography">Biography</a></li>
-          <li class="menu-item"><a href="#skills">Skills</a></li>
-          <li class="menu-item"><a href="#projects">Projects</a></li>
-          <li class="menu-item"><a href="#contact">Contact</a></li>
-        </ul></nav>
+        <div class="navbar-inner">
+          <h1 class="logo"><a href="/">KEY PORTFOLIO</a></h1>
+          <button id="menu-button" class="menu-button" type="button"><i class="fas fa-bars 7x"></i></button>
+          <nav class="nav"><ul class="menu-list">
+            <li class="menu-item"><a href="#about">About</a></li>
+            <li class="menu-item"><a href="#biography">Biography</a></li>
+            <li class="menu-item"><a href="#skills">Skills</a></li>
+            <li class="menu-item"><a href="#projects">Projects</a></li>
+            <li class="menu-item"><a href="#contact">Contact</a></li>
+          </ul></nav>
+        </div>
       </div>
       <div class="title-wrapper">
         <h2 class="title">KEYPOINT</h2>
@@ -29,7 +34,7 @@
       </div>
     </header>
     <!-- main.main>section.section.about>h2.section-title+div.section-content -->
-    <main class="main">
+    <main class="main" id="content">
       <section class="section about">
         <h2 class="section-title">About</h2>
         <div class="section-content">
@@ -110,6 +115,21 @@
       </section>
 
     </main>
+    <footer class="footer">
+      <div>
+        <h2 class="contact-title">Contact</h2>
+        <address class="address">
+          <ul class="contact-list">
+            <li class="contact-item"><a href="https://www.instagram.com/fly_goeun/" target="_blank">Instagram.Eunyi Koh</a></li>
+            <li class="contact-item"><a href="tel:010-2500-3905">T. 010-2500-3905</a></li>
+            <li class="contact-item"><a href="mailto:key9407@naver.com">E-mail. key9407@naver.com</a></li>
+          </ul>
+        </address>
+        <small class="copyright">
+          COPYRIGHT INFORMATION GOES HERE © 2020. ALL RIGHTS RESERVED.
+        </small>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
